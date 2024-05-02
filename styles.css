@@ -1,0 +1,136 @@
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+.Title {
+    height: 300px;
+    width: 480px;
+    background-color: black;
+    margin: auto;
+    position: relative;
+
+}
+
+.text {
+    color: white;
+    text-align: center;
+    padding-top: 60px;
+}
+.round img{
+    position:absolute;
+    width: 240px;
+    height: 240px;
+    margin-left: 5%;
+    margin-top: -7.9%;
+    
+   border-radius: 50%;
+   border: 20px solid white;
+}
+.name{
+    height: 150px;
+    padding-top: 150px;
+    text-align: center;
+    
+}
+.picture{
+    
+    width: 20px;
+    margin-left:120px ;
+    
+}
+.picture img{
+    filter: grayscale(90%);
+    margin-top: 90px;
+   
+}
+.detailtitle{
+    height: auto;
+    width:  auto;
+    margin-top: 50px;
+    text-align: center;
+    color: black;
+}
+.intermdetail {
+    text-align: center;
+    padding-top:  20px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.companyinfo {
+   
+    text-align: center;
+    padding-top:  20px;
+    width:400px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    
+
+}
+.company{
+    height: auto;
+    width: auto;
+    margin-top: 50px;
+    text-align: center;
+    color: black;
+}
+.div1{
+ display: flex;
+ justify-content: space-;
+ align-items: center;
+ gap: 20px;
+}
+.div3{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    
+}
+span{
+    color: black;
+}
+hr{
+    width: 300px;
+    margin-top: 100px;
+}
+.founder{
+    text-align: center;
+    
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 80px;
+}
+.footer{
+    background-color: black;
+    height: 100px;
+    width: 500px;
+    border-radius: 100px 100px 0px 0px;
+    margin: auto;
+    
+}
+.companyinfo2{
+    text-align: center;
+    padding-top:  20px;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    gap: 60px;
+    align-items: center;
+    height: 50px;
+}
+
+#card
+{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+.cardUp{
+    border: 1px solid black;
+}
